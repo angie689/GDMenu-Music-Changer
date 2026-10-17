@@ -6,7 +6,7 @@
     "mac": "*",
     "ios": "*"
   },
-  "version": "v1.4.1",
+  "version": "v1.4.0",
   "id": "angel-in-the-skies.menu-music-swapper",
   "name": "GDMenu Music Changer",
   "developer": "angel in the skies",
