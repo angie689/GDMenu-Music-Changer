@@ -1,0 +1,49 @@
+{
+  "geode": "5.11.1",
+  "gd": {
+    "win": "*",
+    "android": "*",
+    "mac": "*",
+    "ios": "*"
+  },
+  "version": "v1.4.1",
+  "id": "angel-in-the-skies.menu-music-swapper",
+  "name": "GDMenu Music Changer",
+  "developer": "angel in the skies",
+  "description": "Replace the main menu music with bundled tracks or your own audio file.",
+  "tags": ["customization"],
+  "resources": {
+    "files": ["resources/*.ogg"]
+  },
+  "settings": {
+    "song": {
+      "type": "string",
+      "name": "Menu song",
+      "description": "Which track plays on the main menu. You can also tap the Next song button on the main menu to switch instantly.",
+      "default": "Neon Runner",
+      "one-of": [
+        "Neon Runner",
+        "Cube Drift",
+        "Spike Pulse",
+        "Random bundled",
+        "Custom file",
+        "Off (default GD music)"
+      ]
+    },
+    "custom-song": {
+      "type": "file",
+      "name": "Custom song file",
+      "description": "Used when 'Custom file' is selected. Supports mp3, ogg and wav.",
+      "default": "",
+      "control": {
+        "dialog": "open",
+        "filters": [
+          {
+            "files": ["*.mp3", "*.ogg", "*.wav"],
+            "description": "Audio files"
+          }
+        ]
+      }
+    }
+  }
+}
