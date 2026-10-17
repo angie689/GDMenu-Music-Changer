@@ -13,7 +13,7 @@ Features
 Installation
 
 1. Install Geode. [geode-skh](https://geode-sdk.org/install)
-2. Download the latest .geode file from the Releases  page. [v1.4.0](https://github.com/angie689/GDMenu-Music-Changer/releases/tag/GDMenu)
+2. Download the latest .geode file from the Releases  page. [v1.4.0](https://github.com/angie689/GDMenu-Music-Changer/releases/tag/1.4.0)
 3. Open the file to install the mod.
 4. Launch Geometry Dash and configure the mod in its settings.
 
