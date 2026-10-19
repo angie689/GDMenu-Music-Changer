@@ -27,4 +27,4 @@ Supported formats: MP3, OGG, and WAV.
 
 Compatibility
 
-The mod targets Geode 5.11.1 and lists support for Windows, Android, macOS, and iOS.
+The mod targets Geode 5.11.1 and lists support for Windows, macOS, and iOS.
